@@ -1,0 +1,916 @@
+{
+  "countries": [
+    {
+      "noc": "GEO",
+      "name": "Georgia",
+      "id": "GEO",
+      "continent": "Europe"
+    },
+    {
+      "noc": "AUT",
+      "name": "Austria",
+      "id": "AUT",
+      "continent": "Europe"
+    },
+    {
+      "noc": "ERI",
+      "name": "Eritrea",
+      "id": "ERI",
+      "continent": "Africa"
+    },
+    {
+      "noc": "TAN",
+      "name": "United Republic of Tanzania",
+      "id": "TAN",
+      "continent": "Africa"
+    },
+    {
+      "noc": "CHI",
+      "name": "Chile",
+      "id": "CHI",
+      "continent": "South America"
+    },
+    {
+      "noc": "SWE",
+      "name": "Sweden",
+      "id": "SWE",
+      "continent": "Europe"
+    },
+    {
+      "noc": "LAT",
+      "name": "Latvia",
+      "id": "LAT",
+      "continent": "Europe"
+    },
+    {
+      "noc": "ROC",
+      "name": "Russian Olympic Committee",
+      "id": "ROC",
+      "continent": "Europe"
+    },
+    {
+      "noc": "URU",
+      "name": "Uruguay",
+      "id": "URU",
+      "continent": "South America"
+    },
+    {
+      "noc": "URS",
+      "name": "Soviet Union",
+      "id": "URS",
+      "continent": "Europe"
+    },
+    {
+      "noc": "BOH",
+      "name": "Bohemia",
+      "id": "BOH",
+      "continent": "Europe"
+    },
+    {
+      "noc": "GUY",
+      "name": "Guyana",
+      "id": "GUY",
+      "continent": "South America"
+    },
+    {
+      "noc": "GER",
+      "name": "Germany",
+      "id": "GER",
+      "continent": "Europe"
+    },
+    {
+      "noc": "GDR",
+      "name": "East Germany",
+      "id": "GDR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "KEN",
+      "name": "Kenya",
+      "id": "KEN",
+      "continent": "Africa"
+    },
+    {
+      "noc": "SYR",
+      "name": "Syrian Arab Republic",
+      "id": "SYR",
+      "continent": "Asia"
+    },
+    {
+      "noc": "ANZ",
+      "name": "Australasia",
+      "id": "ANZ",
+      "continent": "Oceania"
+    },
+    {
+      "noc": "LBN",
+      "name": "Lebanon",
+      "id": "LBN",
+      "continent": "Asia"
+    },
+    {
+      "noc": "FIJ",
+      "name": "Fiji",
+      "id": "FIJ",
+      "continent": "Oceania"
+    },
+    {
+      "noc": "IRI",
+      "name": "Islamic Republic of Iran",
+      "id": "IRI",
+      "continent": "Asia"
+    },
+    {
+      "noc": "MGL",
+      "name": "Mongolia",
+      "id": "MGL",
+      "continent": "Asia"
+    },
+    {
+      "noc": "BLR",
+      "name": "Belarus",
+      "id": "BLR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "SRB",
+      "name": "Serbia",
+      "id": "SRB",
+      "continent": "Europe"
+    },
+    {
+      "noc": "BEL",
+      "name": "Belgium",
+      "id": "BEL",
+      "continent": "Europe"
+    },
+    {
+      "noc": "SGP",
+      "name": "Singapore",
+      "id": "SGP",
+      "continent": "Asia"
+    },
+    {
+      "noc": "TJK",
+      "name": "Tajikistan",
+      "id": "TJK",
+      "continent": "Asia"
+    },
+    {
+      "noc": "PER",
+      "name": "Peru",
+      "id": "PER",
+      "continent": "South America"
+    },
+    {
+      "noc": "ALG",
+      "name": "Algeria",
+      "id": "ALG",
+      "continent": "Africa"
+    },
+    {
+      "noc": "ARG",
+      "name": "Argentina",
+      "id": "ARG",
+      "continent": "South America"
+    },
+    {
+      "noc": "SMR",
+      "name": "San Marino",
+      "id": "SMR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "CIV",
+      "name": "Côte d'Ivoire",
+      "id": "CIV",
+      "continent": "Africa"
+    },
+    {
+      "noc": "ITA",
+      "name": "Italy",
+      "id": "ITA",
+      "continent": "Europe"
+    },
+    {
+      "noc": "CZE",
+      "name": "Czech Republic",
+      "id": "CZE",
+      "continent": "Europe"
+    },
+    {
+      "noc": "TGA",
+      "name": "Tonga",
+      "id": "TGA",
+      "continent": "Oceania"
+    },
+    {
+      "noc": "ESP",
+      "name": "Spain",
+      "id": "ESP",
+      "continent": "Europe"
+    },
+    {
+      "noc": "LUX",
+      "name": "Luxembourg",
+      "id": "LUX",
+      "continent": "Europe"
+    },
+    {
+      "noc": "CAN",
+      "name": "Canada",
+      "id": "CAN",
+      "continent": "North America"
+    },
+    {
+      "noc": "BOT",
+      "name": "Botswana",
+      "id": "BOT",
+      "continent": "Africa"
+    },
+    {
+      "noc": "PAK",
+      "name": "Pakistan",
+      "id": "PAK",
+      "continent": "Asia"
+    },
+    {
+      "noc": "HUN",
+      "name": "Hungary",
+      "id": "HUN",
+      "continent": "Europe"
+    },
+    {
+      "noc": "BAH",
+      "name": "The Bahamas",
+      "id": "BAH",
+      "continent": "North America"
+    },
+    {
+      "noc": "TUN",
+      "name": "Tunisia",
+      "id": "TUN",
+      "continent": "Africa"
+    },
+    {
+      "noc": "NOR",
+      "name": "Norway",
+      "id": "NOR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "KSA",
+      "name": "Kingdom of Saudi Arabia",
+      "id": "KSA",
+      "continent": "Asia"
+    },
+    {
+      "noc": "YUG",
+      "name": "Yugoslavia",
+      "id": "YUG",
+      "continent": "Europe"
+    },
+    {
+      "noc": "IOA",
+      "name": "Individual Olympic Athletes",
+      "id": "IOA",
+      "continent": "IOA"
+    },
+    {
+      "noc": "ETH",
+      "name": "Ethiopia",
+      "id": "ETH",
+      "continent": "Africa"
+    },
+    {
+      "noc": "CRO",
+      "name": "Croatia",
+      "id": "CRO",
+      "continent": "Europe"
+    },
+    {
+      "noc": "VEN",
+      "name": "Venezuela",
+      "id": "VEN",
+      "continent": "South America"
+    },
+    {
+      "noc": "AFG",
+      "name": "Afghanistan",
+      "id": "AFG",
+      "continent": "Asia"
+    },
+    {
+      "noc": "NIG",
+      "name": "Niger",
+      "id": "NIG",
+      "continent": "Africa"
+    },
+    {
+      "noc": "POR",
+      "name": "Portugal",
+      "id": "POR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "KGZ",
+      "name": "Kyrgyzstan",
+      "id": "KGZ",
+      "continent": "Asia"
+    },
+    {
+      "noc": "SRI",
+      "name": "Sri Lanka",
+      "id": "SRI",
+      "continent": "Asia"
+    },
+    {
+      "noc": "WIF",
+      "name": "West Indies Federation",
+      "id": "WIF",
+      "continent": "North America"
+    },
+    {
+      "noc": "HKG",
+      "name": "Hong Kong, China",
+      "id": "HKG",
+      "continent": "Asia"
+    },
+    {
+      "noc": "DOM",
+      "name": "Dominican Republic",
+      "id": "DOM",
+      "continent": "North America"
+    },
+    {
+      "noc": "JOR",
+      "name": "Jordan",
+      "id": "JOR",
+      "continent": "Asia"
+    },
+    {
+      "noc": "CUB",
+      "name": "Cuba",
+      "id": "CUB",
+      "continent": "North America"
+    },
+    {
+      "noc": "BUL",
+      "name": "Bulgaria",
+      "id": "BUL",
+      "continent": "Europe"
+    },
+    {
+      "noc": "IRL",
+      "name": "Ireland",
+      "id": "IRL",
+      "continent": "Europe"
+    },
+    {
+      "noc": "TKM",
+      "name": "Turkmenistan",
+      "id": "TKM",
+      "continent": "Asia"
+    },
+    {
+      "noc": "SAM",
+      "name": "Samoa",
+      "id": "SAM",
+      "continent": "Oceania"
+    },
+    {
+      "noc": "RUS",
+      "name": "Russian Federation",
+      "id": "RUS",
+      "continent": "Europe"
+    },
+    {
+      "noc": "UAE",
+      "name": "United Arab Emirates",
+      "id": "UAE",
+      "continent": "Asia"
+    },
+    {
+      "noc": "BER",
+      "name": "Bermuda",
+      "id": "BER",
+      "continent": "North America"
+    },
+    {
+      "noc": "ROU",
+      "name": "Romania",
+      "id": "ROU",
+      "continent": "Europe"
+    },
+    {
+      "noc": "KOS",
+      "name": "Kosovo",
+      "id": "KOS",
+      "continent": "Europe"
+    },
+    {
+      "noc": "JPN",
+      "name": "Japan",
+      "id": "JPN",
+      "continent": "Asia"
+    },
+    {
+      "noc": "MEX",
+      "name": "Mexico",
+      "id": "MEX",
+      "continent": "North America"
+    },
+    {
+      "noc": "FRG",
+      "name": "West Germany",
+      "id": "FRG",
+      "continent": "Europe"
+    },
+    {
+      "noc": "NAM",
+      "name": "Namibia",
+      "id": "NAM",
+      "continent": "Africa"
+    },
+    {
+      "noc": "ISL",
+      "name": "Iceland",
+      "id": "ISL",
+      "continent": "Europe"
+    },
+    {
+      "noc": "ECU",
+      "name": "Ecuador",
+      "id": "ECU",
+      "continent": "South America"
+    },
+    {
+      "noc": "BAR",
+      "name": "Barbados",
+      "id": "BAR",
+      "continent": "North America"
+    },
+    {
+      "noc": "SUD",
+      "name": "Sudan",
+      "id": "SUD",
+      "continent": "Africa"
+    },
+    {
+      "noc": "MRI",
+      "name": "Mauritius",
+      "id": "MRI",
+      "continent": "Africa"
+    },
+    {
+      "noc": "BUR",
+      "name": "Burkina Faso",
+      "id": "BUR",
+      "continent": "Africa"
+    },
+    {
+      "noc": "UKR",
+      "name": "Ukraine",
+      "id": "UKR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "PRK",
+      "name": "Democratic People's Republic of Korea",
+      "id": "PRK",
+      "continent": "Asia"
+    },
+    {
+      "noc": "AUS",
+      "name": "Australia",
+      "id": "AUS",
+      "continent": "Oceania"
+    },
+    {
+      "noc": "POL",
+      "name": "Poland",
+      "id": "POL",
+      "continent": "Europe"
+    },
+    {
+      "noc": "USA",
+      "name": "United States",
+      "id": "USA",
+      "continent": "North America"
+    },
+    {
+      "noc": "SEN",
+      "name": "Senegal",
+      "id": "SEN",
+      "continent": "Africa"
+    },
+    {
+      "noc": "MKD",
+      "name": "North Macedonia",
+      "id": "MKD",
+      "continent": "Europe"
+    },
+    {
+      "noc": "SCG",
+      "name": "Serbia and Montenegro",
+      "id": "SCG",
+      "continent": "Europe"
+    },
+    {
+      "noc": "NED",
+      "name": "Netherlands",
+      "id": "NED",
+      "continent": "Europe"
+    },
+    {
+      "noc": "DJI",
+      "name": "Djibouti",
+      "id": "DJI",
+      "continent": "Africa"
+    },
+    {
+      "noc": "IRQ",
+      "name": "Iraq",
+      "id": "IRQ",
+      "continent": "Asia"
+    },
+    {
+      "noc": "UAR",
+      "name": "United Arab Republic",
+      "id": "UAR",
+      "continent": "Asia"
+    },
+    {
+      "noc": "EUN",
+      "name": "Unified Team",
+      "id": "EUN",
+      "continent": "Europe"
+    },
+    {
+      "noc": "NZL",
+      "name": "New Zealand",
+      "id": "NZL",
+      "continent": "Oceania"
+    },
+    {
+      "noc": "DEN",
+      "name": "Denmark",
+      "id": "DEN",
+      "continent": "Europe"
+    },
+    {
+      "noc": "LTU",
+      "name": "Lithuania",
+      "id": "LTU",
+      "continent": "Europe"
+    },
+    {
+      "noc": "ISV",
+      "name": "United States Virgin Islands",
+      "id": "ISV",
+      "continent": "North America"
+    },
+    {
+      "noc": "PUR",
+      "name": "Puerto Rico",
+      "id": "PUR",
+      "continent": "North America"
+    },
+    {
+      "noc": "AHO",
+      "name": "Netherlands Antilles",
+      "id": "AHO",
+      "continent": "North America"
+    },
+    {
+      "noc": "CHN",
+      "name": "People's Republic of China",
+      "id": "CHN",
+      "continent": "Asia"
+    },
+    {
+      "noc": "JAM",
+      "name": "Jamaica",
+      "id": "JAM",
+      "continent": "North America"
+    },
+    {
+      "noc": "IND",
+      "name": "India",
+      "id": "IND",
+      "continent": "Asia"
+    },
+    {
+      "noc": "KOR",
+      "name": "Republic of Korea",
+      "id": "KOR",
+      "continent": "Asia"
+    },
+    {
+      "noc": "GBR",
+      "name": "Great Britain",
+      "id": "GBR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "GHA",
+      "name": "Ghana",
+      "id": "GHA",
+      "continent": "Africa"
+    },
+    {
+      "noc": "FIN",
+      "name": "Finland",
+      "id": "FIN",
+      "continent": "Europe"
+    },
+    {
+      "noc": "FRA",
+      "name": "France",
+      "id": "FRA",
+      "continent": "Europe"
+    },
+    {
+      "noc": "UZB",
+      "name": "Uzbekistan",
+      "id": "UZB",
+      "continent": "Asia"
+    },
+    {
+      "noc": "BRA",
+      "name": "Brazil",
+      "id": "BRA",
+      "continent": "South America"
+    },
+    {
+      "noc": "HAI",
+      "name": "Haiti",
+      "id": "HAI",
+      "continent": "North America"
+    },
+    {
+      "noc": "CRC",
+      "name": "Costa Rica",
+      "id": "CRC",
+      "continent": "North America"
+    },
+    {
+      "noc": "GRE",
+      "name": "Greece",
+      "id": "GRE",
+      "continent": "Europe"
+    },
+    {
+      "noc": "MAR",
+      "name": "Morocco",
+      "id": "MAR",
+      "continent": "Africa"
+    },
+    {
+      "noc": "TUR",
+      "name": "Türkiye",
+      "id": "TUR",
+      "continent": "Europe"
+    },
+    {
+      "noc": "MDA",
+      "name": "Republic of Moldova",
+      "id": "MDA",
+      "continent": "Europe"
+    },
+    {
+      "noc": "SUI",
+      "name": "Switzerland",
+      "id": "SUI",
+      "continent": "Europe"
+    },
+    {
+      "noc": "PAR",
+      "name": "Paraguay",
+      "id": "PAR",
+      "continent": "South America"
+    },
+    {
+      "noc": "MON",
+      "name": "Monaco",
+      "id": "MON",
+      "continent": "Europe"
+    },
+    {
+      "noc": "CMR",
+      "name": "Cameroon",
+      "id": "CMR",
+      "continent": "Africa"
+    },
+    {
+      "noc": "MOZ",
+      "name": "Mozambique",
+      "id": "MOZ",
+      "continent": "Africa"
+    },
+    {
+      "noc": "MNE",
+      "name": "Montenegro",
+      "id": "MNE",
+      "continent": "Europe"
+    },
+    {
+      "noc": "ARM",
+      "name": "Armenia",
+      "id": "ARM",
+      "continent": "Europe"
+    },
+    {
+      "noc": "EGY",
+      "name": "Egypt",
+      "id": "EGY",
+      "continent": "Africa"
+    },
+    {
+      "noc": "TCH",
+      "name": "Czechoslovakia",
+      "id": "TCH",
+      "continent": "Europe"
+    },
+    {
+      "noc": "KUW",
+      "name": "Kuwait",
+      "id": "KUW",
+      "continent": "Asia"
+    },
+    {
+      "noc": "BRN",
+      "name": "Bahrain",
+      "id": "BRN",
+      "continent": "Asia"
+    },
+    {
+      "noc": "PHI",
+      "name": "Philippines",
+      "id": "PHI",
+      "continent": "Asia"
+    },
+    {
+      "noc": "EST",
+      "name": "Estonia",
+      "id": "EST",
+      "continent": "Europe"
+    },
+    {
+      "noc": "BDI",
+      "name": "Burundi",
+      "id": "BDI",
+      "continent": "Africa"
+    },
+    {
+      "noc": "SLO",
+      "name": "Slovenia",
+      "id": "SLO",
+      "continent": "Europe"
+    },
+    {
+      "noc": "TPE",
+      "name": "Chinese Taipei",
+      "id": "TPE",
+      "continent": "Asia"
+    },
+    {
+      "noc": "PAN",
+      "name": "Panama",
+      "id": "PAN",
+      "continent": "North America"
+    },
+    {
+      "noc": "AZE",
+      "name": "Azerbaijan",
+      "id": "AZE",
+      "continent": "Europe"
+    },
+    {
+      "noc": "COL",
+      "name": "Colombia",
+      "id": "COL",
+      "continent": "South America"
+    },
+    {
+      "noc": "VIE",
+      "name": "Vietnam",
+      "id": "VIE",
+      "continent": "Asia"
+    },
+    {
+      "noc": "SUR",
+      "name": "Suriname",
+      "id": "SUR",
+      "continent": "South America"
+    },
+    {
+      "noc": "ZAM",
+      "name": "Zambia",
+      "id": "ZAM",
+      "continent": "Africa"
+    },
+    {
+      "noc": "NGR",
+      "name": "Nigeria",
+      "id": "NGR",
+      "continent": "Africa"
+    },
+    {
+      "noc": "ZIM",
+      "name": "Zimbabwe",
+      "id": "ZIM",
+      "continent": "Africa"
+    },
+    {
+      "noc": "TTO",
+      "name": "Trinidad and Tobago",
+      "id": "TTO",
+      "continent": "North America"
+    },
+    {
+      "noc": "CYP",
+      "name": "Cyprus",
+      "id": "CYP",
+      "continent": "Europe"
+    },
+    {
+      "noc": "TOG",
+      "name": "Togo",
+      "id": "TOG",
+      "continent": "Africa"
+    },
+    {
+      "noc": "UGA",
+      "name": "Uganda",
+      "id": "UGA",
+      "continent": "Africa"
+    },
+    {
+      "noc": "GRN",
+      "name": "Grenada",
+      "id": "GRN",
+      "continent": "North America"
+    },
+    {
+      "noc": "GUA",
+      "name": "Guatemala",
+      "id": "GUA",
+      "continent": "North America"
+    },
+    {
+      "noc": "THA",
+      "name": "Thailand",
+      "id": "THA",
+      "continent": "Asia"
+    },
+    {
+      "noc": "SVK",
+      "name": "Slovakia",
+      "id": "SVK",
+      "continent": "Europe"
+    },
+    {
+      "noc": "GAB",
+      "name": "Gabon",
+      "id": "GAB",
+      "continent": "Africa"
+    },
+    {
+      "noc": "MAS",
+      "name": "Malaysia",
+      "id": "MAS",
+      "continent": "Asia"
+    },
+    {
+      "noc": "QAT",
+      "name": "Qatar",
+      "id": "QAT",
+      "continent": "Asia"
+    },
+    {
+      "noc": "INA",
+      "name": "Indonesia",
+      "id": "INA",
+      "continent": "Asia"
+    },
+    {
+      "noc": "RSA",
+      "name": "South Africa",
+      "id": "RSA",
+      "continent": "Africa"
+    },
+    {
+      "noc": "KAZ",
+      "name": "Kazakhstan",
+      "id": "KAZ",
+      "continent": "Asia"
+    },
+    {
+      "noc": "ISR",
+      "name": "Israel",
+      "id": "ISR",
+      "continent": "Asia"
+    }
+  ]
+}
