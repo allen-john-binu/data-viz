@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Toggle</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5ed);
+        }
+
+        img {
+            width: 80vw;
+            height: 80vh;
+            object-fit: cover;
+            cursor: url("./image/timeWings.png"), auto;
+            animation: floatImage 6s ease-in-out infinite;
+            box-shadow: 0 24px 32px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        .info-icon {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 24px;
+            height: 24px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            z-index: 10;
+        }
+
+        .info-icon:hover+.tooltip {
+            display: block;
+        }
+
+        .tooltip {
+            position: absolute;
+            bottom: 40px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 14px;
+            display: none;
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        @keyframes floatImage {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @keyframes rotateOut {
+            0% {
+                transform: rotate(0deg);
+                opacity: 1;
+            }
+
+            100% {
+                transform: rotate(180deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes rotateIn {
+            0% {
+                transform: rotate(-180deg);
+                opacity: 0;
+            }
+
+            100% {
+                transform: rotate(0deg);
+                opacity: 1;
+            }
+        }
+
+        .rotating-out {
+            animation: rotateOut 0.5s forwards;
+        }
+
+        .rotating-in {
+            animation: rotateIn 0.5s forwards;
+        }
+
+        #imageA,
+        #imageB {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        .rings-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rings {
+            position: relative;
+            width: 800px;
+            height: 400px;
+        }
+
+        .circle {
+            width: 170px;
+            height: 170px;
+            border: 15px solid transparent;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            cursor: url("./image/timeWings.png"), auto;
+            transition: all 0.3s ease;
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .circle:hover {
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        .circle.blue {
+            border-color: rgb(0, 120, 208);
+            top: 50px;
+            left: 100px;
+        }
+
+        .circle.blue:hover {
+            background-color: rgb(0, 120, 208);
+        }
+
+        .circle.black {
+            border-color: rgb(0, 0, 0);
+            top: 50px;
+            left: 310px;
+        }
+
+        .circle.black:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .circle.red {
+            border-color: rgb(240, 40, 45);
+            top: 50px;
+            left: 520px;
+        }
+
+        .circle.red:hover {
+            background-color: rgb(240, 40, 45);
+        }
+
+        .circle.yellow {
+            border-color: rgb(255, 177, 20);
+            top: 180px;
+            left: 205px;
+        }
+
+        .circle.yellow:hover {
+            background-color: rgb(255, 177, 20);
+        }
+
+        .circle.green {
+            border-color: rgb(0, 166, 81);
+            top: 180px;
+            left: 415px;
+        }
+
+        .circle.green:hover {
+            background-color: rgb(0, 166, 81);
+        }
+
+        .circle span {
+            display: none;
+            font-size: 32px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .circle:hover span {
+            display: block;
+        }
+
+        @keyframes explode {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(10);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(100);
+                opacity: 1;
+            }
+        }
+
+        .exploding {
+            animation: explode 1s forwards;
+            position: fixed;
+            transform-origin: center;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="imageA">
+        <img src="./image/timeProofs/japanBefore.jpg" alt="Image A" />
+        <div class="info-icon">i</div>
+        <div class="tooltip">Random Info Text for Image A</div>
+    </div>
+    <div id="imageB">
+        <img src="./image/hi2.jpg" alt="Image B" />
+        <div class="info-icon">i</div>
+        <div class="tooltip">Random Info Text for Image B</div>
+    </div>
+
+    <div class="rings-container">
+        <div class="rings">
+            <div class="circle blue" onclick="explodeAndRedirect(event,'Continent')">
+                <span>Continent</span>
+            </div>
+            <div class="circle black" onclick="explodeAndRedirect(event,'Sexuality')">
+                <span>Sexuality</span>
+            </div>
+            <div class="circle red" onclick="explodeAndRedirect(event,'Gender')">
+                <span>Gender</span>
+            </div>
+            <div class="circle yellow" onclick="explodeAndRedirect(event,'Stats')">
+                <span>Stats</span>
+            </div>
+            <div class="circle green" onclick="explodeAndRedirect(event,'Historic')">
+                <span>Historic</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const imageA = document.getElementById("imageA").querySelector("img");
+        const imageB = document.getElementById("imageB").querySelector("img");
+
+        const toggleImage = (image, src1, src2) => {
+            image.classList.add("rotating-out");
+            setTimeout(() => {
+                image.src = image.src.endsWith(src1) ? src2 : src1;
+                image.classList.remove("rotating-out");
+                image.classList.add("rotating-in");
+            }, 500);
+
+            setTimeout(() => {
+                image.classList.remove("rotating-in");
+            }, 1000);
+        };
+
+        imageA.addEventListener("click", () => {
+            toggleImage(imageA, "image/timeProofs/japanBefore.jpg", "image/timeProofs/japanAfter.jpg");
+        });
+
+        imageB.addEventListener("click", () => {
+            toggleImage(imageB, "image/hi2.jpg", "image/hi4.jpg");
+        });
+
+        function explodeAndRedirect(event, param) {
+            const circle = event.target.closest(".circle");
+            const computedStyle = window.getComputedStyle(circle);
+
+            const explosion = document.createElement("div");
+            explosion.style.position = "fixed";
+            explosion.style.top = `${circle.getBoundingClientRect().top + circle.offsetHeight / 2
+                }px`;
+            explosion.style.left = `${circle.getBoundingClientRect().left + circle.offsetWidth / 2
+                }px`;
+            explosion.style.transform = "translate(-50%, -50%)";
+            explosion.style.width = "170px";
+            explosion.style.height = "170px";
+            explosion.style.borderRadius = "50%";
+            explosion.style.backgroundColor = computedStyle.borderColor;
+            explosion.style.zIndex = "9999";
+            explosion.style.animation = "explode 1s forwards";
+
+            document.body.appendChild(explosion);
+
+            switch (param) {
+                case "Continent":
+                    setTimeout(() => {
+                        window.location.href = "https://www.facebook.com";
+                    }, 1000);
+                    break;
+                case "Sexuality":
+                    setTimeout(() => {
+                        window.location.href =
+                            "../finals/sexuality.html";
+                    }, 1000);
+                    break;
+                case "Gender":
+                    setTimeout(() => {
+                        window.location.href =
+                            "../finals/gender.html";
+                    }, 1000);
+                    break;
+                case "Stats":
+                    setTimeout(() => {
+                        window.location.href =
+                            "../finals/stats.html";
+                    }, 1000);
+                    break;
+                case "Historic":
+                    setTimeout(() => {
+                        window.location.href = "https://www.google.com";
+                    }, 1000);
+                    break;
+                default:
+                    setTimeout(() => {
+                        window.location.href = "https://www.google.com";
+                    }, 1000);
+            }
+        }
+    </script>
+</body>
+
+</html>
